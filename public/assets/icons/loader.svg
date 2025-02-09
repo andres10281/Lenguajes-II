@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g fill="none" stroke="#6C63FF" stroke-width="4" stroke-linecap="round">
+    <circle cx="24" cy="24" r="20" stroke-opacity="0.2"/>
+    <path d="M24 4 A20 20 0 0 1 44 24" stroke-dasharray="100" stroke-dashoffset="0">
+      <animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.5s" repeatCount="indefinite" />
+      <animate attributeName="stroke-opacity" values="1;0.5;1" dur="1.5s" repeatCount="indefinite" />
+    </path>
+  </g>
+  <circle cx="24" cy="24" r="6" fill="#6C63FF">
+    <animate attributeName="r" values="6;10;6" dur="1.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="1;0.5;1" dur="1.5s" repeatCount="indefinite" />
+  </circle>
+</svg>
